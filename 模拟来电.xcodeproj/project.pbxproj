@@ -15,6 +15,15 @@
 		33C460FA1C2ACD4C0001B50E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33C460F81C2ACD4C0001B50E /* LaunchScreen.storyboard */; };
 		33C461051C2ACD4C0001B50E /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C461041C2ACD4C0001B50E /* ____Tests.m */; };
 		33C461101C2ACD4C0001B50E /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C4610F1C2ACD4C0001B50E /* ____UITests.m */; };
+		33C4611F1C2ADE660001B50E /* CallingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C4611E1C2ADE660001B50E /* CallingViewController.m */; };
+		33C4612E1C2AE0700001B50E /* fakeDesk.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C461271C2AE0700001B50E /* fakeDesk.png */; };
+		33C461361C2AF0D70001B50E /* addCall.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C4612F1C2AF0D70001B50E /* addCall.png */; };
+		33C461371C2AF0D70001B50E /* callKeyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C461301C2AF0D70001B50E /* callKeyboard.png */; };
+		33C461381C2AF0D70001B50E /* contact.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C461311C2AF0D70001B50E /* contact.png */; };
+		33C461391C2AF0D70001B50E /* facetime.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C461321C2AF0D70001B50E /* facetime.png */; };
+		33C4613A1C2AF0D70001B50E /* handoff.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C461331C2AF0D70001B50E /* handoff.png */; };
+		33C4613B1C2AF0D70001B50E /* mianti.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C461341C2AF0D70001B50E /* mianti.png */; };
+		33C4613C1C2AF0D70001B50E /* silenc.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C461351C2AF0D70001B50E /* silenc.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,16 @@
 		33C4610B1C2ACD4C0001B50E /* 模拟来电UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "模拟来电UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33C4610F1C2ACD4C0001B50E /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		33C461111C2ACD4C0001B50E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33C4611D1C2ADE660001B50E /* CallingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallingViewController.h; sourceTree = "<group>"; };
+		33C4611E1C2ADE660001B50E /* CallingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallingViewController.m; sourceTree = "<group>"; };
+		33C461271C2AE0700001B50E /* fakeDesk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fakeDesk.png; sourceTree = "<group>"; };
+		33C4612F1C2AF0D70001B50E /* addCall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addCall.png; sourceTree = "<group>"; };
+		33C461301C2AF0D70001B50E /* callKeyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = callKeyboard.png; sourceTree = "<group>"; };
+		33C461311C2AF0D70001B50E /* contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contact.png; sourceTree = "<group>"; };
+		33C461321C2AF0D70001B50E /* facetime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facetime.png; sourceTree = "<group>"; };
+		33C461331C2AF0D70001B50E /* handoff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handoff.png; sourceTree = "<group>"; };
+		33C461341C2AF0D70001B50E /* mianti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mianti.png; sourceTree = "<group>"; };
+		33C461351C2AF0D70001B50E /* silenc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = silenc.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +120,10 @@
 		33C460E91C2ACD4C0001B50E /* 模拟来电 */ = {
 			isa = PBXGroup;
 			children = (
+				33C461201C2AE0700001B50E /* source */,
 				33C460ED1C2ACD4C0001B50E /* AppDelegate.h */,
+				33C4611D1C2ADE660001B50E /* CallingViewController.h */,
+				33C4611E1C2ADE660001B50E /* CallingViewController.m */,
 				33C460EE1C2ACD4C0001B50E /* AppDelegate.m */,
 				33C460F01C2ACD4C0001B50E /* ViewController.h */,
 				33C460F11C2ACD4C0001B50E /* ViewController.m */,
@@ -138,6 +160,21 @@
 				33C461111C2ACD4C0001B50E /* Info.plist */,
 			);
 			path = "模拟来电UITests";
+			sourceTree = "<group>";
+		};
+		33C461201C2AE0700001B50E /* source */ = {
+			isa = PBXGroup;
+			children = (
+				33C4612F1C2AF0D70001B50E /* addCall.png */,
+				33C461301C2AF0D70001B50E /* callKeyboard.png */,
+				33C461311C2AF0D70001B50E /* contact.png */,
+				33C461321C2AF0D70001B50E /* facetime.png */,
+				33C461331C2AF0D70001B50E /* handoff.png */,
+				33C461341C2AF0D70001B50E /* mianti.png */,
+				33C461351C2AF0D70001B50E /* silenc.png */,
+				33C461271C2AE0700001B50E /* fakeDesk.png */,
+			);
+			path = source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +280,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33C461391C2AF0D70001B50E /* facetime.png in Resources */,
+				33C461381C2AF0D70001B50E /* contact.png in Resources */,
 				33C460FA1C2ACD4C0001B50E /* LaunchScreen.storyboard in Resources */,
+				33C461371C2AF0D70001B50E /* callKeyboard.png in Resources */,
+				33C4613C1C2AF0D70001B50E /* silenc.png in Resources */,
+				33C4613A1C2AF0D70001B50E /* handoff.png in Resources */,
 				33C460F71C2ACD4C0001B50E /* Assets.xcassets in Resources */,
 				33C460F51C2ACD4C0001B50E /* Main.storyboard in Resources */,
+				33C4612E1C2AE0700001B50E /* fakeDesk.png in Resources */,
+				33C461361C2AF0D70001B50E /* addCall.png in Resources */,
+				33C4613B1C2AF0D70001B50E /* mianti.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +318,7 @@
 				33C460F21C2ACD4C0001B50E /* ViewController.m in Sources */,
 				33C460EF1C2ACD4C0001B50E /* AppDelegate.m in Sources */,
 				33C460EC1C2ACD4C0001B50E /* main.m in Sources */,
+				33C4611F1C2ADE660001B50E /* CallingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
